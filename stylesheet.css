@@ -158,7 +158,7 @@ span.highlight {
   border-radius: 16px;
 }
 
-video {
+.video {
   border-radius: 16px;
   display: block;   /* 去掉视频底部默认的几像素间隙 */
 }
