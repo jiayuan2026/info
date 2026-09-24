@@ -80,44 +80,46 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Titillium Webo', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 24px;
 }
 
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
   font-weight: 700;
 }
 
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 34px;
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 320px;
+  height: 200px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 320px;
+  height: 200px;
+  border-radius: 12px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -130,6 +132,16 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.intro {
+  text-align: justify;
+  line-height: 1.7;
+ /* max-width: 800px;*/
+}
+/*
+.intro p {
+    margin-bottom: 20px;
+}
+*/
 span.highlight {
   background-color: #ffffd0;
 }
@@ -140,3 +152,27 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.rounded-img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+video {
+  border-radius: 16px;
+  display: block;   /* 去掉视频底部默认的几像素间隙 */
+}
+/*
+.custom-divider {
+  border: 0;
+  border-top: 1px solid #242222;
+  margin: 24px 0;
+}
+  */
+
+ 
+ hr {
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ }
